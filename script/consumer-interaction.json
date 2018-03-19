@@ -2,7 +2,10 @@
   "description": "foo",
   "request": {
     "path": "/foo",
-    "method": "GET"
+    "method": "GET",
+    "body": {
+      "message": "Jean-Marie de La Beaujardière😀😍"
+    }
   },
   "response": {
     "status": 200,
@@ -10,7 +13,7 @@
       "Content-Type": "application/json"
     },
     "body": {
-      "message": "Hello world"
+      "message": "Jean-Marie de La Beaujardière😀😍"
     }
   }
 }
